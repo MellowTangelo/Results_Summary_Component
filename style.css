@@ -188,15 +188,17 @@ svg {
 }
 
 @media only screen and (min-width: 580px) {
-    html, body {
+    html,
+    .summary_title {
         margin: 0;
-        height: 100%;
     }
 
     body {
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        min-height: 100vh;
     }
 
     main {
@@ -226,9 +228,5 @@ svg {
         margin: 1rem 0rem 1rem;
         padding: 0.5rem;
         font-size: 0.875rem;
-    }
-
-    .summary_title {
-        margin: 0;
     }
 }
